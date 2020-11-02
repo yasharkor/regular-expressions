@@ -40,10 +40,10 @@ Article 265 in this dataset has sentences like this:
 ## CSV file
 As mentioned before, news articles usually have a lot of time references, and we want you to search for those references in the input data. The output of your search should be a CSV file with all of the dates expressions found. The file should contain at least four columns, one column for the id of the article, one for the type of date expression found, one for the date expression itself, and one for the offset in characters from the beginning of the file to the beginning of the date expression, that is the position of the first character of the date expression in the file. You should name the type of date expression as you wish, making sure that their types reflect the expressions they represent.
 
-For the excerpt above a valid output is 
-article_id, expr_type, value, char_offset
-265.txt, date, 15 November 2004, 30
-265.txt, date, 3 January 2005, 50
+- For the excerpt above a valid output is 
+- article_id, expr_type, value, char_offset
+- 265.txt, date, 15 November 2004, 30
+- 265.txt, date, 3 January 2005, 50
 
 You should also extract the entire date expression at once. For example, for the string “June 2019” there should be a single row on the output file, as opposed to one entry for the year and one for the month. You should always extract the longest consecutive date expression possible, there will be no marks for partially extracted expressions.
 ## Code
@@ -53,18 +53,21 @@ With that, you should be discouraged from creating regular expressions specifica
 ## Documentation
 Another very important deliverable is your code’s documentation. You need to explain how to execute your code and communicate which steps are necessary to do so. This is important for the TAs who will be running your code later. You should let them know how to set up a folder as the input folder, which libraries are needed to run your project, how to run your Python script, and where to look for the output file. You can do all that in a README file and put it inside your project’s folder. For more tips on how to write a clear and helpful README file follow this link.
 # Suggestions
-## General suggestions
-If or when in doubt, ask for help right away.
-Start early, familiarize yourself with the task and start thinking about it sooner rather than later.
+
 ## Code suggestions
-Create different functions to tackle different parts of the task, e.g., one function to read the input files, one function to split the input text into smaller chunks, one function to apply regular expressions.
-List all possible date expression structures, e.g., day month year, month day, season year, etc.
-Focus on a single date expression structure to search at a time. Write a regular expression for it and then move on to the next structure.
-Add comments after each regular expression definition indicating which date structure they extract so that the TAs can better understand your code.
-Consider a long for-loop structure for your program in which you test every sentence against every regular expression until you find matches.
-Create your own test file, with many hand-crafted expressions for which you know what the correct extraction should be. 
+- Create different functions to tackle different parts of the task, e.g., one function to read the input files, one function to split the input text into smaller chunks, one function to apply regular expressions.
+- List all possible date expression structures, e.g., day month year, month day, season year, etc.
+- Focus on a single date expression structure to search at a time. Write a regular expression for it and then move on to the next structure.
+- Add comments after each regular expression definition indicating which date structure they extract so that the TAs can better understand your code.
+- Consider a long for-loop structure for your program in which you test every sentence against every regular expression until you find matches.
+- Create your own test file, with many hand-crafted expressions for which you know what the correct extraction should be. 
 ## Useful links
-[This website](https://www.w3schools.com/python/python_regex.asp) has a good overview of the library Python RegEx. It lists the library functions available and regular expression’s metacharacters along with their uses.
-[This post](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285) is very useful to look for metacharacters and their applications.
-You may want to test your regular expression before embedding them to your code. [This website](https://regex101.com/) is perfect for that. 
-You may also want to improve the readability of your code by adding comments within a regular expression. The VERBOSE mode in Python provides such functionality, as described [here](https://docs.python.org/3.5/library/re.html#re.X). 
+- [This website](https://www.w3schools.com/python/python_regex.asp) has a good overview of the library Python RegEx. It lists the library functions available and regular expression’s metacharacters along with their uses.
+- [This post](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285) is very useful to look for metacharacters and their applications.
+- You may want to test your regular expression before embedding them to your code. [This website](https://regex101.com/) is perfect for that. 
+- You may also want to improve the readability of your code by adding comments within a regular expression. The VERBOSE mode in Python provides such functionality, as described [here](https://docs.python.org/3.5/library/re.html#re.X). 
+
+# More information
+- Book Chapter: [Chapter 2](https://web.stanford.edu/~jurafsky/slp3/2.pdf)
+
+- Learning Objectives : Learn how to use regular expressions to extract information from text.
