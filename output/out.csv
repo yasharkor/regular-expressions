@@ -311,7 +311,6 @@ Last year",516
 1421.txt,interval, last week,1962
 1421.txt,interval, this week.,2039
 1421.txt,interval, last year.,2484
-1421.txt,deictic1,last Saturday,885
 1421.txt,number of years,two years ,1454
 1343.txt,interval, Sportsweek,246
 1343.txt,interval, New Year,767
@@ -450,7 +449,6 @@ Last year",516
 866.txt,interval," same day,",1753
 866.txt,interval, New Year.,1841
 866.txt,interval, last week.,2130
-866.txt,deictic1,last Thursday,1678
 866.txt,number of years,new year ,483
 866.txt,month,September,2930
 891.txt,interval, Monday.,1445
@@ -982,7 +980,6 @@ For years",497
 1443.txt,interval, last week,779
 1443.txt,interval," last week,",1360
 1443.txt,interval, this year,1480
-1443.txt,deictic1,last Saturday,212
 1443.txt,year, 1948,1557
 1443.txt,month,March,158
 1443.txt,month,June,590
@@ -1753,7 +1750,6 @@ This year,",519
 876.txt,month,July,651
 1199.txt,interval," Tuesday,",102
 1199.txt,interval, Saturday.,153
-1199.txt,deictic1,last Saturday,149
 1199.txt,month,March,781
 663.txt,year, 1964,174
 663.txt,year, 1971,230
@@ -5520,7 +5516,6 @@ This year",1175
 847.txt,month,March,4196
 1124.txt,interval, Saturday.,975
 1124.txt,interval, the week,1052
-1124.txt,deictic1,last Saturday,971
 1124.txt,month,March,579
 950.txt,interval, last week,839
 950.txt,interval, early days,1508
@@ -6625,7 +6620,6 @@ Next month",511
 1122.txt,interval, 20 years,1274
 1122.txt,interval,The day,1313
 1122.txt,interval, the day,1359
-1122.txt,deictic1,last Sunday,204
 1122.txt,number of years,20 years ,1275
 356.txt,interval, the year,60
 356.txt,interval, the year,211
@@ -7209,7 +7203,6 @@ The days",631
 1334.txt,interval, this year,125
 1334.txt,interval, the year,218
 1334.txt,interval, this month.,564
-1334.txt,deictic1,last Sunday,627
 1334.txt,number of years,the year ,219
 1334.txt,year, 2002,738
 1334.txt,year, 2003,747
@@ -7270,7 +7263,6 @@ The days",631
 1286.txt,interval, last year.,398
 1286.txt,interval, last week,571
 1286.txt,interval, this season.,984
-1286.txt,deictic1,last Friday,1154
 1007.txt,interval, demonstration days,116
 1007.txt,interval," Wednesday,",430
 1007.txt,interval, this year.,567
@@ -9010,8 +9002,6 @@ Last season",614
 1203.txt,interval, this week.,412
 1203.txt,interval, three years,622
 1203.txt,interval," Saturday,",671
-1203.txt,deictic1,last Saturday,344
-1203.txt,deictic1,last Saturday,667
 1203.txt,number of years,three years ,623
 1203.txt,month,March,300
 1203.txt,month,April,489
@@ -10053,8 +10043,6 @@ Fourteen months",865
 1154.txt,interval, 15 minutes,2104
 1154.txt,interval, of minutes,2212
 1154.txt,interval, this week.,2939
-1154.txt,deictic1,last Sunday,1487
-1154.txt,deictic1,last Sunday,1837
 1154.txt,year, 2003,225
 1154.txt,month,September,761
 1154.txt,month,November,1422
@@ -10243,7 +10231,6 @@ Fourteen months",865
 1398.txt,interval, difficult year,1587
 1398.txt,number of years,difficult year ,1588
 979.txt,interval," Monday,",776
-979.txt,deictic1,last Friday,114
 457.txt,interval, of years,1784
 457.txt,number of years,"of years,",1785
 662.txt,interval, birthday,130
@@ -10486,7 +10473,6 @@ Fourteen months",865
 1386.txt,interval, next month,252
 1386.txt,interval, Sunday.,1415
 1386.txt,interval, next week,1554
-1386.txt,deictic1,last Saturday,1164
 1386.txt,year, 2002,678
 1386.txt,year, 1500,834
 1386.txt,year, 2003,896
@@ -11319,7 +11305,6 @@ Last week",1197
 953.txt,interval, a week.,1409
 953.txt,interval, four days,1510
 953.txt,interval, this week,2669
-953.txt,deictic1,last Wednesday,944
 355.txt,interval, past week,430
 355.txt,interval, Thursday.,735
 355.txt,interval, Thursday.,860
